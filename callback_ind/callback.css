@@ -1,0 +1,234 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+     width: 100%;
+     height: 100vh;
+}
+#parent {
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+#loder {
+    position: absolute;
+     font-size: 15rem;
+     line-height: 5rem;
+     border:15px solid rgb(250, 250, 250);
+     width: 25rem;
+     height: 25rem;
+     border-radius: 50%;
+     margin-top: 3rem;
+     left: 35%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-top-color:rgb(249, 176, 41);
+     border-bottom-color: rgb(14, 196, 14) ;
+     border-left-color: white;
+     animation: loding 0.75s linear infinite;
+     overflow: auto;
+}
+
+#go {
+    position: absolute;
+    font-size: 3rem;
+    /* background-image: linear-gradient(to right,orange,green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    font-weight: 900;
+    color: darkblue;
+}
+
+@keyframes loding {
+   from {
+     transform: rotate(0turn);
+   }
+   to {
+    transform: rotate(1turn);
+   }
+}
+
+#numbers {
+    position: absolute;
+    left: 48%;
+    font-size: 6rem;
+    color: darkblue;
+    top: 30%;
+}
+
+#indepen {
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    font-size: 2rem;
+    background-image: url(independ-1.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: start;
+    color: transparent;
+    width: 30%;
+   
+
+}
+
+#button {
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right , orange,rgb(10, 177, 10));
+    font-size: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    transition: 1s;
+}
+
+#button:hover {
+    filter: blur(1px);
+    transition: 1s;
+}
+
+@media screen and (max-width:600px) {
+   
+    
+#loder {
+    position: unset;
+     font-size: 15rem;
+     line-height: 5rem;
+     border:15px solid rgb(250, 250, 250);
+     margin-top:30%;
+     height: 28rem;
+     width: 28rem;
+     text-align: center;
+     margin-left: 3rem;
+     border-top-color:rgb(249, 176, 41);
+     border-bottom-color: rgb(14, 196, 14) ;
+     border-left-color: white;
+     animation: loding 0.75s linear infinite;
+}
+
+
+#go {
+    position: absolute;
+     top: 0;
+    margin-left: -4rem;
+    font-size: 5rem;
+    /* background-image: linear-gradient(to right,orange,green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    color: darkblue;
+    font-weight: 900;
+}
+
+
+#button {
+    width: 50%;
+    padding: 10px;
+    position: unset;
+    border-radius: 10px;
+    margin-top: 50%;
+    margin-left: 20%;
+    border: none;
+    background-image: linear-gradient(to right , orange,rgb(10, 177, 10));
+    font-size: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+}
+
+
+
+#indepen {
+    position: unset;
+    margin-top: -18rem;
+    margin-left: 10rem;
+    font-size: 2rem;
+    background-image: url(independ-1.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: start;
+    color: transparent;
+    width:40%;
+   
+
+}
+}
+
+
+@media screen  and (max-width : 400px){
+      
+#loder {
+    position: unset;
+     font-size: 10rem;
+     line-height: 5rem;
+     border:10px solid rgb(250, 250, 250);
+     margin-top:10%;
+     height: 20rem;
+     width: 20rem;
+     text-align: center;
+     margin-left: 3rem;
+     border-top-color:rgb(249, 176, 41);
+     border-bottom-color: rgb(14, 196, 14) ;
+     border-left-color: white;
+     animation: loding 0.75s linear infinite;
+}
+
+#go {
+    position: absolute;
+    top: -5.5rem;
+    margin-left: -1rem;
+    font-size: 3rem;
+    /* background-image: linear-gradient(to right,orange,green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    color: darkblue;
+    font-weight: 600;
+}
+
+
+
+#button {
+    width: 50%;
+    padding: 10px;
+    position: unset;
+    border-radius: 10px;
+    margin-top: 60%;
+    margin-left: 25%;
+    border: none;
+    background-image: linear-gradient(to right , orange,rgb(10, 177, 10));
+    font-size: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+}
+
+
+
+#indepen {
+    position: unset;
+    margin-top: -13rem;
+    margin-left: 4.6rem;
+    font-size: 2rem;
+    background-image: url(independ-1.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: start;
+    color: transparent;
+    width: 60%;
+   
+
+}
+}
